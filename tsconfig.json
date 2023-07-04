@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "esNext",
+    "target": "esNext",
+    "outDir": "./",
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+		"declaration": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
